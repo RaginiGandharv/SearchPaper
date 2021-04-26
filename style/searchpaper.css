@@ -1,0 +1,144 @@
+/* search paper  */
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.bg{
+    /* border: 2px solid navy; */
+    width: 100%;
+}
+.txt{
+    display: block;
+}
+.txt h4{
+    /* border: 2px solid crimson; */
+    margin: auto;
+    text-align: center;
+    margin: 20px 45px;
+    padding: 10px;
+}
+.center{
+    width: 450px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(27deg,#F7F2E8 50%,#0fb9f1 50%);
+    border-radius: 10px;
+    box-shadow: 0 1px 6px black,0 1px 4px rgb(211, 155, 100);
+}
+#img{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    position: relative;
+    left: calc( (450px - 120px)/2 );
+}
+.center h3{
+    text-align: center;
+    color: #F7F2E8;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: -2px 2px 1px rgb(111, 219, 219);
+}
+.inputbox{
+    width: calc(100% - 100px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    padding: 0px 10px;
+    border: 2px solid #0fb9f1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+::placeholder{
+    letter-spacing: 2px;
+    color: black;
+}
+.icon{
+    width: calc(100% - 410px);
+    height: 40px;
+    display: block;
+    margin: auto;
+    font-size: 27px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: #0fb9f1;;
+    color: black;
+    box-shadow: 0 1px 6px black,0 1px 4px rgb(211, 155, 100);
+}
+@media screen and (min-width: 350px) and (max-width: 525px){
+    .center{
+        width: 300px;
+        height: 450px;
+    }
+    #img{
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        position: relative;
+        left: calc( (300px - 90px)/2 );
+    }
+    .center h3{
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .icon{
+        width: calc(100% - 250px);
+    }
+    .inputbox{
+        width: calc(100% - 40px);
+    }
+}
+@media screen and (min-width: 290px) and (max-width: 350px){
+    .center{
+        width: 260px;
+        height: 430px;
+    }
+    #img{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        position: relative;
+        left: calc( (260px - 70px)/2 );
+    }
+    .center h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        width: calc(100% - 210px);
+    }
+    .inputbox{
+        width: calc(100% - 20px);
+        padding: 0px 10px;
+    }
+    
+}
+@media screen and (max-width: 290px){
+    .center{
+        width: 230px;
+        height: 400px;
+    }
+    #img{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        position: relative;
+        left: calc( (230px - 70px)/2 );
+    }
+    .center h3{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .icon{
+        width: calc(100% - 190px);
+    }
+    .inputbox{
+        width: calc(100% - 20px);
+        font-size: 0.9rem;
+    }
+   
+    
+}
